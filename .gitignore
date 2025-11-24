@@ -154,3 +154,18 @@ Desktop.ini
 *~
 .directory
 .Trash-*
+# Data files (keep structure, ignore content)
+data/raw/*
+data/processed/*
+data/embeddings/*
+data/chroma/*
+!data/*/.gitkeep
+
+# Keep requirements files
+!requirements*.txt
+data/raw/*
+data/processed/*
+data/embeddings/*
+data/chroma/*
+!data/*/.gitkeep
+!requirements*.txt
