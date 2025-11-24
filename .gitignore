@@ -1,0 +1,156 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+virtualenv/
+.Python
+pyvenv.cfg
+
+# Conda
+.conda/
+*.conda
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# API Keys and Secrets
+*.key
+*.pem
+*.cer
+secrets/
+credentials/
+config/secrets.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data
+data/raw/*
+data/processed/*
+data/embeddings/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/embeddings/.gitkeep
+*.csv
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.xlsx
+*.xls
+!sample_*.csv  
+!example_*.json  
+
+# Model files
+models/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+*.pb
+saved_models/
+checkpoints/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+log.txt
+output.txt
+debug.txt
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.coverage.*
+coverage.xml
+*.cover
+
+# Documentation
+docs/_build/
+site/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+instance/
+*.db-journal
+*.db-wal
+
+# Vector Stores
+chromadb/
+qdrant/
+faiss_index/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+.Trash-*
