@@ -15,7 +15,7 @@ transformers>=4.40.0
 torch>=2.5.0
 
 # Vector DBs
-chromadb>=0.5.0,<1.0
+chromadb==0.4.24
 pinecone-client>=3.2.0
 weaviate-client>=4.5.0
 
