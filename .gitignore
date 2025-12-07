@@ -121,7 +121,7 @@ docs/_build/
 site/
 
 # Database
-*.db
+#*.db
 *.sqlite
 *.sqlite3
 instance/
@@ -158,7 +158,7 @@ Desktop.ini
 data/raw/*
 data/processed/*
 data/embeddings/*
-data/chroma/*
+#data/chroma/*
 !data/*/.gitkeep
 
 # Keep requirements files
@@ -166,6 +166,6 @@ data/chroma/*
 data/raw/*
 data/processed/*
 data/embeddings/*
-data/chroma/*
+#data/chroma/*
 !data/*/.gitkeep
 !requirements*.txt
