@@ -201,7 +201,7 @@ def get_specific_doc_name(query: str, available_docs: list) -> str | None:
 # CORE FUNCTIONS
 # =============================================================================
 
-st.set_page_config(page_title="Course Material QA Bot", layout="wide")
+st.set_page_config(page_title="Course Companion", layout="wide")
 
 @st.cache_resource
 def get_embeddings():
