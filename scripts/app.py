@@ -474,7 +474,7 @@ if "pending_overview" not in st.session_state:
 # UI
 # =============================================================================
 
-st.title("Course Material QA Bot")
+st.title("Course Companion")
 st.markdown("Upload your course materials and learn with your favorite tutor!")
 
 col1, col2 = st.columns([1, 1])
